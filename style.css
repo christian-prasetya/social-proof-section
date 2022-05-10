@@ -1,0 +1,25 @@
+:root {
+  /* Primary Color */
+  --color-vdark-magenta: hsl(300, 43%, 22%);
+  --color-soft-pink: hsl(333, 80%, 67%);
+
+  /* Neutral Color */
+  --color-darkgrayish-magenta: hsl(303, 10%, 53%);
+  --color-lightgrayish-magenta: hsl(300, 24%, 96%);
+  --color-white: hsl(0m 0%, 100%);
+
+  /* Font size */
+  --fs-regular: 15px;
+}
+
+
+
+
+
+.attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
