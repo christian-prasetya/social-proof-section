@@ -16,7 +16,7 @@
 }
 
 body {
-  margin: 0;
+  margin: 6rem auto;
   padding: 0;
   box-sizing: border-box;
   background-image: url(images/bg-pattern-top-desktop.svg), url(images/bg-pattern-bottom-desktop.svg);
@@ -32,12 +32,38 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin: auto;
 }
 
 .heading {
-  width: 50%;
+  width: 35rem;
+  padding: 2rem 0;
 }
 
+.heading h1 {
+  font-size: 4rem;
+  font-weight: 700;
+  color: var(--color-vdark-magenta);
+  margin: 0;
+  line-height: 0.75;
+  padding: 0 4rem;
+}
+
+.heading p {
+  margin: 0%;
+  padding: 0.75rem 4rem;
+  font-size: var(--fs-regular);
+}
+
+.rating-flex {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  padding: 0 2rem;
+  background-color: var(--color-lightgrayish-magenta);
+  margin: 1rem 0;
+  border-radius: 8px;
+}
 
 /* Social Proof styling */
 .social-proof {
