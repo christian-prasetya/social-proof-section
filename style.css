@@ -53,9 +53,10 @@ main {
 }
 
 .heading p {
-  margin: 0%;
+  margin: 0;
   padding: 0.75rem 0;
   font-size: var(--fs-regular);
+  color: var(--color-darkgrayish-magenta);
 }
 
 .rating-flex {
@@ -127,6 +128,9 @@ main {
 .review {
   margin-top: 1rem;
   margin-bottom: 0;
+  line-height: 1.5;
+  font-size: var(--fs-regular);
+  font-weight: 100;
 }
 
 .irene-roberts {
@@ -146,4 +150,71 @@ main {
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+/* Mobile Version */
+@media (max-width:375px) {
+  body {
+    background-image: url(images/bg-pattern-top-mobile.svg), url(images/bg-pattern-bottom-mobile.svg);
+    background-repeat: no-repeat;
+    background-position: 0 0, bottom right;
+    background-size: unset;
+  }
+
+  main {
+    margin: 2rem auto;
+  }
+
+  .card-header {
+    flex-direction: column;
+    margin: 0 auto;
+    gap: 0;
+  }
+
+  .heading {
+    text-align: center;
+    width: 100%;
+  }
+
+  .heading h1 {
+    font-size: 3rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+  }
+  
+  .heading p {
+    margin: 0;
+    font-size: var(--fs-regular);
+    color: var(--color-darkgrayish-magenta);
+  }
+
+  .rating-flex {
+    display: block;
+    padding: 1rem;
+  }
+
+  .star-rating {
+    text-align: center;
+    width: 100%;
+  }
+
+  .star-rating p {
+    font-weight: bold;
+    margin: 0;
+  }
+
+  .rating-2,
+  .rating-3 {
+    margin: 1rem 0;
+  }
+
+  .social-proof {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .irene-roberts,
+  .anne-wallace {
+    margin-top: 0;
+  }
 }
