@@ -23,11 +23,10 @@ body {
   background-repeat: no-repeat;
   background-position: top center, bottom center;
   background-size: unset, unset;
-  height: 100vh;
 }
 
 main {
-  margin: 5rem auto;
+  margin: 10rem auto;
 }
 
 /* Card Header styling */
